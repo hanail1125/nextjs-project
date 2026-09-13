@@ -1,0 +1,22 @@
+{
+  "editor.showUnused": true,
+  "workbench.colorCustomizations": {
+    "editorUnnecessaryCode.opacity": "#0000005a",
+    "editorUnnecessaryCode.border": "#00000000"
+  },
+  "eslint.rules.customizations": [
+    {
+      "rule": "no-unused-vars",
+      "severity": "off"
+    },
+    {
+      "rule": "@typescript-eslint/no-unused-vars",
+      "severity": "off"
+    }
+  ],
+  "errorLens.exclude": [
+    "is defined but never used",
+    "is assigned a value but never used",
+    "is declared but its value is never read"
+  ]
+}
